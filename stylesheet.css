@@ -46,16 +46,24 @@ tr:first-child{
     background-color: rgb(194, 189, 189);
 }
 
-#article_exemple{
+#article_exemple,div{
     display: flex;
     flex-direction: row;
 }
 
+div{
+    border: 1px solid black;
+    margin: 0px;
+    padding : 0px;
+}
+
 code{
     background-color: rgb(240, 231, 231);
+    
    
 }
 
 ul{
     border: 1px solid black;
+    
 }
