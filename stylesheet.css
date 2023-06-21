@@ -9,6 +9,8 @@
     overflow-y: scroll;
     overflow-x: hidden;
     width: 30%;
+    position: fixed;
+    height: 100%;
     
     
 }
@@ -37,6 +39,7 @@ a{
 #description_droite{
     display: flex;
     flex-direction: column;
+    margin-left: 40%;
 }
 
 tr:first-child{
