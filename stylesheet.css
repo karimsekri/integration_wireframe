@@ -23,6 +23,11 @@ td{
     width: 33%;
     height: 20px;
 }
+
+tr:first-child{
+    background-color: rgb(194, 189, 189);
+}
+
 a{
    text-decoration: none; 
 }
@@ -42,20 +47,26 @@ a{
     margin-left: 40%;
 }
 
-tr:first-child{
-    background-color: rgb(194, 189, 189);
-}
 
-#article_exemple,div{
+
+
+#section_exemple{
     display: flex;
     flex-direction: row;
+    margin: 10px;
+    
+}
+#article_exemple{
+    width: 50%;
+    margin: 10px;
+    border: 1px solid black;
+}
+#article_code{
+    width: 50%;
+    margin: 10px;
+    
 }
 
-div{
-    border: 1px solid black;
-    margin: 0px;
-    padding : 0px;
-}
 
 code{
     background-color: rgb(240, 231, 231);
@@ -64,6 +75,6 @@ code{
 }
 
 ul{
-    border: 1px solid black;
+   
     
 }
