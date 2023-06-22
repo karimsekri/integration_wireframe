@@ -1,11 +1,11 @@
-#section_body{
+.section_body{
     display: flex;
     flex-direction: row;
     
     
 }
 
-#list_gauche{
+.list_gauche{
     overflow-y: scroll;
     overflow-x: hidden;
     width: 30%;
@@ -14,7 +14,7 @@
     
     
 }
-table, tr,td{
+table, tr,td,th{
     border: 1px solid black;
     border-collapse: collapse;
 }
@@ -41,7 +41,7 @@ a{
 
 
 
-#description_droite{
+.description_droite{
     display: flex;
     flex-direction: column;
     margin-left: 40%;
@@ -50,18 +50,18 @@ a{
 
 
 
-#section_exemple{
+.section_exemple{
     display: flex;
     flex-direction: row;
     margin: 10px;
     
 }
-#article_exemple{
+.article_exemple{
     width: 50%;
     margin: 10px;
     border: 1px solid black;
 }
-#article_code{
+.article_code{
     width: 50%;
     margin: 10px;
     
