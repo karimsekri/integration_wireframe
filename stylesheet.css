@@ -1,7 +1,9 @@
+
+ 
 .section_body{
     display: flex;
     flex-direction: column;
-    
+      
     
 }
 
@@ -49,6 +51,7 @@ a{
     display: flex;
     flex-direction: column;
     margin-left: 40%;
+    margin-right: 10px;
 }
 
 
@@ -57,26 +60,24 @@ a{
 .section_exemple{
     display: flex;
     flex-direction: row;
-    margin: 10px;
+    
     
 }
 .article_exemple{
     width: 50%;
     margin: 10px;
+    margin-left: 0px;
     border: 1px solid black;
 }
 .article_code{
     width: 50%;
     margin: 10px;
+    margin-right: 0px;
     
 }
 
 
-code{
-    background-color: rgb(240, 231, 231);
-    
-   
-}
+
 
 h1{
     font-size: xx-large;
@@ -84,5 +85,5 @@ h1{
 
 .code_image,img{
     width: 100%;
-    border: 1px solid black;
+    
 }
