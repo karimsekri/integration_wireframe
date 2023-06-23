@@ -1,5 +1,7 @@
 
- 
+body{
+    font-family: Roboto;
+} 
 .section_body{
     display: flex;
     flex-direction: column;
@@ -26,6 +28,7 @@ table, tr,td,th{
 td{
     width: 33%;
     height: 20px;
+    text-align: center;
 }
 
 thead:first-child{
